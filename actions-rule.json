@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "domain": "merchantmoe.com",
+      "pathPattern": "/trade/**",
+      "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
+    },
+    {
+      "domain": "app.mantleswap.org",
+      "pathPattern": "/swap/**",
+      "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
+    }
+  ]
+}

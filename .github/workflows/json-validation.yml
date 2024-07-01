@@ -1,0 +1,25 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  # manual trigger
+  workflow_dispatch:
+
+jobs:
+  validate-json:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate JSON
+        run: |
+          if ! jq empty actions-rule.json; then
+            echo "actions-rule.json is not a valid JSON file."
+            exit 1
+          fi
