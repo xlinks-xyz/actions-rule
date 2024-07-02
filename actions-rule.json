@@ -3,7 +3,7 @@
     "rules": [
       {
         "pathPattern": "/trade/**",
-        "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
+        "apiPath": "https://www.xlinks.site/api/kyberswap/swap/mantle/**"
       }
     ]
   },
@@ -11,7 +11,7 @@
     "rules": [
       {
         "pathPattern": "/swap/**",
-        "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
+        "apiPath": "https://www.xlinks.site/api/kyberswap/swap/mantle/**"
       }
     ]
   }
