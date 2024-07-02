@@ -1,14 +1,18 @@
 {
-  "rules": [
-    {
-      "domain": "merchantmoe.com",
-      "pathPattern": "/trade/**",
-      "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
-    },
-    {
-      "domain": "app.mantleswap.org",
-      "pathPattern": "/swap/**",
-      "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
-    }
-  ]
+  "merchantmoe.com": {
+    "rules": [
+      {
+        "pathPattern": "/trade/**",
+        "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
+      }
+    ]
+  },
+  "app.mantleswap.org": {
+    "rules": [
+      {
+        "pathPattern": "/swap/**",
+        "apiPath": "https://xlinks.site/api/kyberswap/swap/mantle/**"
+      }
+    ]
+  }
 }
