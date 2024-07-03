@@ -16,5 +16,14 @@
         "icon": "https://ucarecdn.com/b02c3581-b3e4-447c-8f4a-1b1e2cb5cdfc/-/preview/899x360/-/quality/smart/-/format/auto/"
       }
     ]
+  },
+  "meth.mantle.xyz": {
+    "rules": [
+      {
+        "pathPattern": "/stake/**",
+        "apiPath": "https://www.xlinks.site/api/mantle/stake/**",
+        "icon": "https://ucarecdn.com/945f3388-284b-412f-97e5-9b6c243ac482/-/preview/1000x562/-/quality/smart/-/format/auto/"
+      }
+    ]
   }
 }
