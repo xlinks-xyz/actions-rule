@@ -3,7 +3,8 @@
     "rules": [
       {
         "pathPattern": "/trade/**",
-        "apiPath": "https://www.xlinks.site/api/kyberswap/swap/mantle/**"
+        "apiPath": "https://www.xlinks.site/api/kyberswap/swap/mantle/**",
+        "icon": "https://ucarecdn.com/42f732d7-e16d-4de4-8ab6-62b0403b0eca/-/preview/1000x562/-/quality/smart/-/format/auto/"
       }
     ]
   },
@@ -11,7 +12,8 @@
     "rules": [
       {
         "pathPattern": "/swap/**",
-        "apiPath": "https://www.xlinks.site/api/kyberswap/swap/mantle/**"
+        "apiPath": "https://www.xlinks.site/api/kyberswap/swap/mantle/**",
+        "icon": "https://ucarecdn.com/b02c3581-b3e4-447c-8f4a-1b1e2cb5cdfc/-/preview/899x360/-/quality/smart/-/format/auto/"
       }
     ]
   }
