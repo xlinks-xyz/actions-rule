@@ -21,7 +21,7 @@
     "rules": [
       {
         "pathPattern": "/stake",
-        "apiPath": "https://www.xlinks.site/api/mantle/stake/**",
+        "apiPath": "https://www.xlinks.site/api/mantle/stake",
         "icon": "https://ucarecdn.com/945f3388-284b-412f-97e5-9b6c243ac482/-/preview/1000x562/-/quality/smart/-/format/auto/"
       }
     ]
