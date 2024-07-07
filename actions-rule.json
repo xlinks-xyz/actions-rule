@@ -25,5 +25,14 @@
         "icon": "https://ucarecdn.com/945f3388-284b-412f-97e5-9b6c243ac482/-/preview/1000x562/-/quality/smart/-/format/auto/"
       }
     ]
+  },
+  "mint.fun": {
+    "rules": [
+      {
+        "pathPattern": "/*/*",
+        "apiPath": "https://www.xlinks.site/api/mintfun/mint",
+        "icon": "https://mint.fun/default-meta-image.png"
+      }
+    ]
   }
 }
