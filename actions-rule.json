@@ -30,7 +30,7 @@
     "rules": [
       {
         "pathPattern": "/*/*",
-        "apiPath": "https://www.xlinks.site/api/mintfun/mint",
+        "apiPath": "https://www.xlinks.site/api/mintfun/mint/**",
         "icon": "https://mint.fun/default-meta-image.png"
       }
     ]
