@@ -29,8 +29,8 @@
   "rewards.mantle.xyz": {
     "rules": [
       {
-        "pathPattern": "/**",
-        "apiPath": "https://www.xlinks.site/api/mantle/lock/**",
+        "pathPattern": "",
+        "apiPath": "https://www.xlinks.site/api/mantle/lock",
         "icon": "https://rewards.mantle.xyz/images/og.webp"
       }
     ]
